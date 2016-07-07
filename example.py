@@ -1,7 +1,5 @@
 from py_middleware import Runner, Builder
 
-print('a')
-
 class Trace:
   def __init__(self, app, value):
     self.app=app
